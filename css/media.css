@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    /* header 시작 */
+    .head_inner {
+        width: 90%;
+        height: 80px;
+    }
+
+    .head_inner .top_menu {
+        display: none;
+    }
+
+    .head_inner .main {
+        padding: 10px 0;
+    }
+
+    .head_inner .main .logo a {
+        width: 53px;
+        height: 60px;
+        background: url("../images/logo_main.png") no-repeat center / cover;
+    }
+
+    .head_inner .main nav {
+        display: none;
+    }
+
+    .m_nav {
+        /* display: block; */
+    }
+
+    .menu_toggle_btn {
+        display: block;
+    }
+
+    /* header 끝 */
+
+    /* section 시작 */
+    /* slide 시작 */
+    .slide {
+        height: 400px;
+    }
+
+    .slide div img,
+    .slide .slide_03_mov,
+    .slide .slide_03_mov video {
+        /* width: 100%; */
+        height: 400px;
+    }
+
+    .slide .slide_03_mov h2 {
+        display: none;
+    }
+
+    .slide .slide_03_mov p {
+        width: 60%;
+    }
+
+    .slide .slick-dots {
+        bottom: 25px;
+    }
+
+    .slide .slick-dots li {
+        margin: 0 5px;
+    }
+
+    .slide .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .slide .slick-arrow {
+        display: none;
+    }
+
+    /* slide 끝 */
+
+    /* place_search 시작 */
+    .place_search {
+        padding: 50px 0;
+    }
+    /* place_search 끝 */
+    /* section 끝 */
+
+}
+
+/* 768px */
